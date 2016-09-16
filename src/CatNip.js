@@ -5,14 +5,14 @@ import CatPanel from './CatPanel';
 import Buttons from './Buttons';
 
 const cats = [
-  {name:"Freddy", age:"8", image:"http://thecatapi.com/api/images/get?results_per_page=1"},
-  {name:"Bobby", age:"5", image:"http://thecatapi.com/api/images/get?results_per_page=1"},
-  {name:"Mike", age:"2", image:"http://thecatapi.com/api/images/get?results_per_page=1"},
-  {name:"Jasmine", age:"2", image:"http://thecatapi.com/api/images/get?results_per_page=1"},
-  {name:"Cassandra", age:"4", image:"http://thecatapi.com/api/images/get?results_per_page=1"},
-  {name:"Vicky", age:"5", image:"http://thecatapi.com/api/images/get?results_per_page=1"},
-  {name:"Rory", age:"8", image:"http://thecatapi.com/api/images/get?results_per_page=1"},
-  {name:"Mike", age:"9", image:"http://thecatapi.com/api/images/get?results_per_page=1"},
+  {name:"Freddy", age:"8", image:"http://thecatapi.com/api/images/get?results_per_page=1&random="+Math.random()},
+  {name:"Bobby", age:"5", image:"http://thecatapi.com/api/images/get?results_per_page=1&random="+Math.random()},
+  {name:"Mike", age:"2", image:"http://thecatapi.com/api/images/get?results_per_page=1&random="+Math.random()},
+  {name:"Jasmine", age:"2", image:"http://thecatapi.com/api/images/get?results_per_page=1&random="+Math.random()},
+  {name:"Cassandra", age:"4", image:"http://thecatapi.com/api/images/get?results_per_page=1&random="+Math.random()},
+  {name:"Vicky", age:"5", image:"http://thecatapi.com/api/images/get?results_per_page=1&random="+Math.random()},
+  {name:"Rory", age:"8", image:"http://thecatapi.com/api/images/get?results_per_page=1&random="+Math.random()},
+  {name:"Mike", age:"9", image:"http://thecatapi.com/api/images/get?results_per_page=1&random="+Math.random()}
 ]
 
 class CatNip extends Component {
